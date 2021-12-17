@@ -1,0 +1,35 @@
+.storelink{
+
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 54px;
+}
+.pocket-heading{
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 1;
+    letter-spacing: -.45px;
+    color: #282c3f;
+
+}
+
+.pocket-desc{
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #7e808c;
+    line-height: 1.2;
+}
+
+@media (max-width:480px){
+
+    .storelink{
+        margin-left: 0;
+    }
+    .pocket-desc{
+        width:360px;
+    }
+}

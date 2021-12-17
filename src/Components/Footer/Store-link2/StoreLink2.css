@@ -1,0 +1,15 @@
+.storelink2 a{
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    font-weight: 300;
+    box-sizing: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: block;
+    transform: scaleX(1);
+    will-change: transform;
+    transition: transform .5s cubic-bezier(.215,.61,.355,1),-webkit-transform .5s cubic-bezier(.215,.61,.355,1);
+}

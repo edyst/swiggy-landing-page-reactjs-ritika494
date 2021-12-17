@@ -1,0 +1,15 @@
+.jumbo-section{
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #282c3f;
+    padding-top: 60px;
+}
+
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}

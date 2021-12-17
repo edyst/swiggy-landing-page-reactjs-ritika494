@@ -1,22 +1,17 @@
-import React from 'react';
 import './App.css';
-
-import {Home} from './components/Home';
-import {Advn} from './components/Advn';
-import {Store} from './components/Store';
-import {About} from './components/About';
-import {Footercity} from './components/Footercity';
-import {Social} from './components/Social';
+import Features from './Components/Features/Features';
+import Footer from './Components/Footer/Footer';
+import JumboSection from './Components/Jumbo-section/JumboSection';
+import RestroPocket from './Components/Restro_in_Pocket/RestroPocket';
 
 function App() {
   return (
-    <div className="container">
-      <Home/>
-      <Advn/>
-      <Store/>
-      <About/>
-      <Footercity/>
-      <Social/>
+    <div className="App">
+      <JumboSection/>
+      <Features/>
+      <RestroPocket/>
+      <Footer/>
+      
     </div>
   );
 }

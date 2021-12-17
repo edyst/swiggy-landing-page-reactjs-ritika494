@@ -1,0 +1,19 @@
+.image-part{
+    background-image: url("./../../images/food.jpg");
+    position: absolute;
+    right: 0;
+    background-repeat: no-repeat;
+    height: 548px;
+    background-size: cover;
+    background-position: 100%;
+    width: 540px;
+    top: 0;
+   padding-left: 100px;
+   }
+
+   @media only screen and (max-width:900px){
+       .image-part{
+       display: none;
+       }
+   }
+   

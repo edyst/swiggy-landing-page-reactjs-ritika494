@@ -1,0 +1,245 @@
+.navform{
+    margin: 0;
+    margin-left: 80px;
+    padding-right: 80px;
+    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.svg{
+    height: 57px;
+    width: 192px;
+}
+
+
+.login{
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    padding: 0 2rem;
+    color: #000;
+    letter-spacing: 0;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+}
+
+.login:hover{
+    color: #fc8019;
+
+}
+
+.sign-up{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    padding: 0 25px;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+}
+
+.sign-up:hover{
+    color: white;
+}
+
+.Jumbo-h1{
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #282c3f;
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -.45px;
+    text-align: left;
+    overflow: hidden;
+
+}
+
+.loop-h1{
+    text-align: left;
+}
+
+._1E3AJ{
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    box-sizing: inherit;
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.form{
+
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #282c3f;
+    box-sizing: inherit;
+    display: block;
+    position: relative;
+    transform: translateZ(0);
+    padding: 0 5px;
+    border: 1px solid #bebfc5;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    height: 58px;
+    margin-bottom: 25px;
+}
+
+
+
+.form-input{
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 0;
+    height: 58px!important;
+    line-height: 26px!important;
+    padding-top: 0!important;
+    padding-left: 15px!important;
+    caret-color: #fc8019;
+    font-size: 18px!important;
+    font-weight: 500;
+    width: 250px;
+}
+
+.form-button{
+
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background-color: #fc8019;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+    right: 0;
+    height: 58px;
+    line-height: 58px;
+    width: 140px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .53px;
+    padding: 0;
+}
+
+.navform-h3{
+    line-height: 1.2;
+    font-weight:bold;
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px;
+    letter-spacing: -.2px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.navform-ul{
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #282c3f;
+    box-sizing: inherit;
+    width: 570px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 130px;
+}
+
+.navform-ul li{
+    float: left;
+    color: #282c3f;
+    list-style: none;
+    box-sizing: inherit;
+    padding: 0;
+}
+
+._3zoZ8{
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 8px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+}
+
+.navform-ul li:nth-child(2n) ._3zoZ8{
+    color: #93959f;
+}
+
+
+@media (max-width:760px){
+    .navform{
+        margin-left:30px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width:635px){
+    .nav-bar{
+        justify-content: flex-start;
+        column-gap: 20px;
+    }
+
+    .form{
+        width: 350px;
+    }
+
+    ._1E3AJ{
+        width: 350px;
+    }
+
+    .navform-ul{
+        width: 350px!important;
+    }
+     
+    .form-input{
+        font-size: 16px!important;
+        padding-left: 5px!important;
+
+    }
+    .Jumbo-h1{
+        margin-top: 60px;
+        margin-bottom: 0;
+        font-size: 35px;
+    
+    }
+}
